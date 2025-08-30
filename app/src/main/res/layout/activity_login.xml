@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp">
+
+    <EditText android:id="@+id/etEmail" android:hint="@string/email" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etPass" android:hint="@string/password" android:inputType="textPassword" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnLogin" android:text="@string/login" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnGoRegister" android:text="@string/register" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
